@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #ea8dce;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    filter:drop-shadow(1px 1px 20px rgb(244, 243, 244))
+
+}
+
+h1 {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'sacramento',cursive;
+    text-shadow: 2px 2px 4px rgb(34, 33, 34);
+
+
+}
+
+p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+form {
+    margin-top: 15px;
+    
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #32CD32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #228B22;
+}
+
+.hidden {
+    display: none;
+}
+
+#greeting {
+    margin-top: 15px;
+    font-size: 1.5em;
+    color: #8B0000;
+}
+.submit{
+    text-decoration: none;
+}
